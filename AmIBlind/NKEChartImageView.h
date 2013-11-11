@@ -1,5 +1,5 @@
 //
-//  NKLetterLabel.h
+//  NKEChartImageView.h
 //  AmIBlind
 //
 //  Created by Nikita Kolmogorov on 10.11.13.
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "NKRandomizableObject.h"
 
-@interface NKSnellenLetterLabel : UILabel <NKRandomizableObject>
+@interface NKEChartImageView : UIImageView <NKRandomizableObject>
 
 @end

@@ -1,5 +1,5 @@
 //
-//  NKLetterLabel.h
+//  NKLetterTable.h
 //  AmIBlind
 //
 //  Created by Nikita Kolmogorov on 10.11.13.
@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NKRandomizableObject.h"
 
-@interface NKSnellenLetterLabel : UILabel <NKRandomizableObject>
+@interface NKTestTable : UIView
+
+- (void)randomize;
 
 @end

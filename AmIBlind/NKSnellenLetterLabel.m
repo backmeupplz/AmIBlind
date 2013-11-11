@@ -15,7 +15,6 @@
     if (self) {
         // Change font to Sneller text font
         self.font = [UIFont fontWithName:@"Snellen" size:(self.font.pointSize*0.72)];
-        //NSLog(@" %@", [UIFont fontNamesForFamilyName:@"Snellen"]);
     }
     return self;
 }

@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B33632C3183093AC00F6815C /* snellen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B33632C2183093AC00F6815C /* snellen.jpg */; };
 		B33632C51830987A00F6815C /* Snellen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B33632C41830987A00F6815C /* Snellen.ttf */; };
+		B33632C71830C0DB00F6815C /* e.gif in Resources */ = {isa = PBXBuildFile; fileRef = B33632C61830C0DB00F6815C /* e.gif */; };
+		B33632CA1830C48900F6815C /* NKEChartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B33632C91830C48900F6815C /* NKEChartImageView.m */; };
 		B3E9071718304F8800E4C2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071618304F8800E4C2CF /* Foundation.framework */; };
 		B3E9071918304F8800E4C2CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071818304F8800E4C2CF /* CoreGraphics.framework */; };
 		B3E9071B18304F8800E4C2CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071A18304F8800E4C2CF /* UIKit.framework */; };
@@ -26,7 +27,7 @@
 		B3E90753183055E300E4C2CF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E90752183055E300E4C2CF /* logo.png */; };
 		B3E9075618305A9800E4C2CF /* NKCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075518305A9800E4C2CF /* NKCheckViewController.m */; };
 		B3E9075918305CF300E4C2CF /* NKSnellenLetterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075818305CF300E4C2CF /* NKSnellenLetterLabel.m */; };
-		B3E9075C18306AF400E4C2CF /* NKLetterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075B18306AF400E4C2CF /* NKLetterTable.m */; };
+		B3E9075C18306AF400E4C2CF /* NKTestTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075B18306AF400E4C2CF /* NKTestTable.m */; };
 		B3E9075E1830798700E4C2CF /* siv.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9075D1830798700E4C2CF /* siv.png */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B33632C2183093AC00F6815C /* snellen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snellen.jpg; sourceTree = "<group>"; };
 		B33632C41830987A00F6815C /* Snellen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snellen.ttf; sourceTree = "<group>"; };
+		B33632C61830C0DB00F6815C /* e.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = e.gif; sourceTree = "<group>"; };
+		B33632C81830C48900F6815C /* NKEChartImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKEChartImageView.h; sourceTree = "<group>"; };
+		B33632C91830C48900F6815C /* NKEChartImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKEChartImageView.m; sourceTree = "<group>"; };
+		B33632CB1830C4B500F6815C /* NKRandomizableObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKRandomizableObject.h; sourceTree = "<group>"; };
 		B3E9071318304F8800E4C2CF /* AmIBlind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmIBlind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E9071618304F8800E4C2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3E9071818304F8800E4C2CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,8 +70,8 @@
 		B3E9075518305A9800E4C2CF /* NKCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKCheckViewController.m; sourceTree = "<group>"; };
 		B3E9075718305CF300E4C2CF /* NKSnellenLetterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSnellenLetterLabel.h; sourceTree = "<group>"; };
 		B3E9075818305CF300E4C2CF /* NKSnellenLetterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSnellenLetterLabel.m; sourceTree = "<group>"; };
-		B3E9075A18306AF400E4C2CF /* NKLetterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLetterTable.h; sourceTree = "<group>"; };
-		B3E9075B18306AF400E4C2CF /* NKLetterTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLetterTable.m; sourceTree = "<group>"; };
+		B3E9075A18306AF400E4C2CF /* NKTestTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTestTable.h; sourceTree = "<group>"; };
+		B3E9075B18306AF400E4C2CF /* NKTestTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTestTable.m; sourceTree = "<group>"; };
 		B3E9075D1830798700E4C2CF /* siv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siv.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,10 +187,13 @@
 		B3E9074F183055BD00E4C2CF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B3E9075A18306AF400E4C2CF /* NKTestTable.h */,
+				B3E9075B18306AF400E4C2CF /* NKTestTable.m */,
 				B3E9075718305CF300E4C2CF /* NKSnellenLetterLabel.h */,
 				B3E9075818305CF300E4C2CF /* NKSnellenLetterLabel.m */,
-				B3E9075A18306AF400E4C2CF /* NKLetterTable.h */,
-				B3E9075B18306AF400E4C2CF /* NKLetterTable.m */,
+				B33632C81830C48900F6815C /* NKEChartImageView.h */,
+				B33632C91830C48900F6815C /* NKEChartImageView.m */,
+				B33632CB1830C4B500F6815C /* NKRandomizableObject.h */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -204,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				B3E9075D1830798700E4C2CF /* siv.png */,
-				B33632C2183093AC00F6815C /* snellen.jpg */,
+				B33632C61830C0DB00F6815C /* e.gif */,
 				B3E90752183055E300E4C2CF /* logo.png */,
 			);
 			name = Images;
@@ -290,9 +297,9 @@
 				B33632C51830987A00F6815C /* Snellen.ttf in Resources */,
 				B3E9075E1830798700E4C2CF /* siv.png in Resources */,
 				B3E9072D18304F8800E4C2CF /* Main_iPad.storyboard in Resources */,
-				B33632C3183093AC00F6815C /* snellen.jpg in Resources */,
 				B3E90753183055E300E4C2CF /* logo.png in Resources */,
 				B3E9073218304F8800E4C2CF /* Images.xcassets in Resources */,
+				B33632C71830C0DB00F6815C /* e.gif in Resources */,
 				B3E9072A18304F8800E4C2CF /* Main_iPhone.storyboard in Resources */,
 				B3E9072118304F8800E4C2CF /* InfoPlist.strings in Resources */,
 			);
@@ -316,7 +323,8 @@
 				B3E9072318304F8800E4C2CF /* main.m in Sources */,
 				B3E9072718304F8800E4C2CF /* NKAppDelegate.m in Sources */,
 				B3E9075618305A9800E4C2CF /* NKCheckViewController.m in Sources */,
-				B3E9075C18306AF400E4C2CF /* NKLetterTable.m in Sources */,
+				B3E9075C18306AF400E4C2CF /* NKTestTable.m in Sources */,
+				B33632CA1830C48900F6815C /* NKEChartImageView.m in Sources */,
 				B3E9075918305CF300E4C2CF /* NKSnellenLetterLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
