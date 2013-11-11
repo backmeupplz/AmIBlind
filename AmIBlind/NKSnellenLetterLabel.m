@@ -13,10 +13,17 @@
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
-        // Change font to Sneller text font
-        self.font = [UIFont fontWithName:@"Snellen" size:(self.font.pointSize*0.72)];
+        [self changeFont];
     }
     return self;
+}
+
+/**
+ *  Method to change font to Snellen
+ */
+- (void)changeFont {
+    // Change font to Snellen text font
+    self.font = [UIFont fontWithName:@"Snellen" size:(self.font.pointSize*0.72)];
 }
 
 /**
