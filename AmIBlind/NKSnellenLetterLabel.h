@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NKSnellenLetterLabel : UIView
+@interface NKSnellenLetterLabel : UILabel
 
 - (void)randomize;
 

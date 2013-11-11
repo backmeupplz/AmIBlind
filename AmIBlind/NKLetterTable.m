@@ -16,7 +16,8 @@
  */
 - (void)randomize {
     for (NKSnellenLetterLabel *letter in self.subviews) {
-        [letter randomize];
+        if ([letter class] == [NKSnellenLetterLabel class])
+            [letter randomize];
     }
 }
 

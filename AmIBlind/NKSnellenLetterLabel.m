@@ -10,6 +10,16 @@
 
 @implementation NKSnellenLetterLabel
 
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        // Change font to Sneller text font
+        self.font = [UIFont fontWithName:@"Snellen" size:(self.font.pointSize*0.72)];
+        //NSLog(@" %@", [UIFont fontNamesForFamilyName:@"Snellen"]);
+    }
+    return self;
+}
+
 /**
  *  Method to randomize letter. ALso flips it around y-axis
  */
@@ -28,7 +38,7 @@
  *  Method to change letter to random one
  */
 - (void)changeLetter {
-    // Get alphabet using C
+    // Get alphabet
     NSArray *alphabet =  @[@"C", @"D", @"E", @"F", @"H", @"K", @"N", @"P", @"R", @"U", @"V", @"Z"];
     
     // Get random number 0...(alphabet.count-1)
