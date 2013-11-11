@@ -11,7 +11,7 @@
 		B33632C71830C0DB00F6815C /* e.gif in Resources */ = {isa = PBXBuildFile; fileRef = B33632C61830C0DB00F6815C /* e.gif */; };
 		B33632CA1830C48900F6815C /* NKChartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B33632C91830C48900F6815C /* NKChartImageView.m */; };
 		B33632D01830E79500F6815C /* NKSivtsevLetterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B33632CF1830E79500F6815C /* NKSivtsevLetterLabel.m */; };
-		B33632D21831024900F6815C /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B33632D11831024900F6815C /* c.jpg */; };
+		B33632D41831192A00F6815C /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = B33632D31831192A00F6815C /* c.png */; };
 		B3E9071718304F8800E4C2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071618304F8800E4C2CF /* Foundation.framework */; };
 		B3E9071918304F8800E4C2CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071818304F8800E4C2CF /* CoreGraphics.framework */; };
 		B3E9071B18304F8800E4C2CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071A18304F8800E4C2CF /* UIKit.framework */; };
@@ -50,7 +50,7 @@
 		B33632CB1830C4B500F6815C /* NKRandomizableObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKRandomizableObject.h; sourceTree = "<group>"; };
 		B33632CE1830E79500F6815C /* NKSivtsevLetterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSivtsevLetterLabel.h; sourceTree = "<group>"; };
 		B33632CF1830E79500F6815C /* NKSivtsevLetterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSivtsevLetterLabel.m; sourceTree = "<group>"; };
-		B33632D11831024900F6815C /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
+		B33632D31831192A00F6815C /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
 		B3E9071318304F8800E4C2CF /* AmIBlind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmIBlind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E9071618304F8800E4C2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3E9071818304F8800E4C2CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -216,7 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				B33632C61830C0DB00F6815C /* e.gif */,
-				B33632D11831024900F6815C /* c.jpg */,
+				B33632D31831192A00F6815C /* c.png */,
 				B3E90752183055E300E4C2CF /* logo.png */,
 			);
 			name = Images;
@@ -302,11 +302,11 @@
 				B33632C51830987A00F6815C /* Snellen.ttf in Resources */,
 				B3E9072D18304F8800E4C2CF /* Main_iPad.storyboard in Resources */,
 				B3E90753183055E300E4C2CF /* logo.png in Resources */,
+				B33632D41831192A00F6815C /* c.png in Resources */,
 				B3E9073218304F8800E4C2CF /* Images.xcassets in Resources */,
 				B33632C71830C0DB00F6815C /* e.gif in Resources */,
 				B3E9072A18304F8800E4C2CF /* Main_iPhone.storyboard in Resources */,
 				B3E9072118304F8800E4C2CF /* InfoPlist.strings in Resources */,
-				B33632D21831024900F6815C /* c.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
