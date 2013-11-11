@@ -50,6 +50,10 @@
     // Get random number 0...(alphabet.count-1)
     int random = arc4random() % alphabet.count;
     
+    // Make sure there will be no repeats
+    while ([self.text isEqualToString:alphabet[random]])
+        random = arc4random() % alphabet.count;
+    
     // Set new letter
     self.text = alphabet[random];
 }
