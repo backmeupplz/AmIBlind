@@ -1,5 +1,5 @@
 //
-//  NKViewController.h
+//  NKLetterTable.h
 //  AmIBlind
 //
 //  Created by Nikita Kolmogorov on 10.11.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NKViewController : UIViewController
+@interface NKLetterTable : UIView
 
 @end
