@@ -21,6 +21,21 @@
 @property (weak, nonatomic) IBOutlet UIView *upperView;
 @property (weak, nonatomic) IBOutlet UIView *bottomView;
 
+@property (weak, nonatomic) IBOutlet UILabel *closeEyeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *choseLetterLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *buttonOne;
+@property (weak, nonatomic) IBOutlet UIButton *buttonTwo;
+@property (weak, nonatomic) IBOutlet UIButton *buttonThree;
+
+@property (weak, nonatomic) IBOutlet UIButton *cancellButton;
+
+@property (weak, nonatomic) IBOutlet UILabel *yourScoreLabel;
+@property (weak, nonatomic) IBOutlet UIButton *twitterButton;
+@property (weak, nonatomic) IBOutlet UIButton *facebookButton;
+@property (weak, nonatomic) IBOutlet UIButton *alrightyThenButton;
+
+
 - (IBAction)snellenTouched:(UIButton *)sender;
 - (IBAction)eChartTouched:(UIButton *)sender;
 - (IBAction)cChartTouched:(UIButton *)sender;
@@ -29,6 +44,12 @@
 - (IBAction)sizeSliderChanged:(UISlider *)sender;
 - (IBAction)randomizeTouched:(UIButton *)sender;
 - (IBAction)takeTestTouched:(UIButton *)sender;
-- (IBAction)test:(id)sender;
+- (IBAction)cancel:(id)sender;
+
+- (IBAction)answerTouched:(UIButton *)sender;
+
+- (IBAction)twitterButtonTouched:(UIButton *)sender;
+- (IBAction)facebookButtonTouched:(UIButton *)sender;
+- (IBAction)allrightyThenButtonTouched:(UIButton *)sender;
 
 @end

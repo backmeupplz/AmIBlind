@@ -51,7 +51,7 @@
                                         <rect key="frame" x="112" y="967" width="545" height="453"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Проверь зрение, друг" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BGP-UX-Voh">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check it out, my friend" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BGP-UX-Voh">
                                         <rect key="frame" x="136" y="1064" width="496" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
@@ -62,13 +62,20 @@
                                         <rect key="frame" x="178" y="551" width="412" height="189"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="45"/>
-                                        <state key="normal" title="Проверить зрение">
+                                        <state key="normal" title="Check your eyes">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <segue destination="AZc-fu-Mlp" kind="push" id="2QP-xA-xb3"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Hold your iPad in straight hands)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PMs-9C-F4Y">
+                                        <rect key="frame" x="277" y="677" width="222" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
@@ -2028,13 +2035,98 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="O2c-WY-SGZ">
-                                        <rect key="frame" x="521" y="44" width="46" height="30"/>
+                                        <rect key="frame" x="707" y="8" width="48" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button">
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="15"/>
+                                        <state key="normal" title="Cancel">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="test:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="9is-yv-Eqf"/>
+                                            <action selector="cancel:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="wLm-Id-wO7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="adK-hk-Hj9">
+                                        <rect key="frame" x="0.0" y="51" width="106" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <state key="normal" title="Twitter">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="twitterButtonTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="i5a-FJ-Dmt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BQm-5P-gO1">
+                                        <rect key="frame" x="114" y="51" width="129" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <state key="normal" title="Facebook">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="facebookButtonTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="a4o-Mx-fge"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jOF-m7-zhf">
+                                        <rect key="frame" x="260" y="51" width="178" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <state key="normal" title="Alrighty then!">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="allrightyThenButtonTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="89i-pM-I7z"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the underlined letter:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L1L-vL-7Xp">
+                                        <rect key="frame" x="20" y="57" width="341" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Close your left eye" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Rc-Fw-UZC">
+                                        <rect key="frame" x="20" y="20" width="341" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your score is:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vGl-jr-KhK">
+                                        <rect key="frame" x="20" y="20" width="489" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oci-Uc-UkY">
+                                        <rect key="frame" x="382" y="39" width="69" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="49"/>
+                                        <state key="normal" title="E">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="Taa-x0-Qdm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ePb-Lr-iTd">
+                                        <rect key="frame" x="472" y="39" width="69" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="49"/>
+                                        <state key="normal" title="F">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="wqI-Sy-cCj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pAQ-pF-S1R">
+                                        <rect key="frame" x="562" y="39" width="69" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="49"/>
+                                        <state key="normal" title="P">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="zLe-3O-5lB"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2046,13 +2138,23 @@
                     <navigationItem key="navigationItem" id="Srj-6e-iGS"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
+                        <outlet property="alrightyThenButton" destination="jOF-m7-zhf" id="de8-fH-ISW"/>
                         <outlet property="bottomView" destination="BGV-Df-XQD" id="1Qm-rM-9hP"/>
+                        <outlet property="buttonOne" destination="oci-Uc-UkY" id="FuT-33-OIa"/>
+                        <outlet property="buttonThree" destination="pAQ-pF-S1R" id="REs-gT-8M8"/>
+                        <outlet property="buttonTwo" destination="ePb-Lr-iTd" id="G3E-z2-h21"/>
                         <outlet property="cChartTable" destination="zZU-KW-t5s" id="yxc-Mt-ezX"/>
+                        <outlet property="cancellButton" destination="O2c-WY-SGZ" id="wga-bm-KPU"/>
+                        <outlet property="choseLetterLabel" destination="L1L-vL-7Xp" id="mB5-NG-oa2"/>
+                        <outlet property="closeEyeLabel" destination="3Rc-Fw-UZC" id="xR1-Dn-nf7"/>
                         <outlet property="eChartTable" destination="jCf-lJ-IhM" id="4yd-Xx-fZM"/>
+                        <outlet property="facebookButton" destination="BQm-5P-gO1" id="SEr-rf-5GT"/>
                         <outlet property="sivtsevTable" destination="rG9-F9-38k" id="bCv-hJ-SYf"/>
                         <outlet property="snellenTable" destination="x6g-f9-ZrT" id="i9S-C3-4l6"/>
                         <outlet property="testingView" destination="B4o-fc-TjX" id="OKc-Zh-jkX"/>
+                        <outlet property="twitterButton" destination="adK-hk-Hj9" id="oxY-U7-mm4"/>
                         <outlet property="upperView" destination="bfV-j9-mch" id="FMp-IG-J12"/>
+                        <outlet property="yourScoreLabel" destination="vGl-jr-KhK" id="qee-7V-08a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IDb-gn-spG" userLabel="First Responder" sceneMemberID="firstResponder"/>

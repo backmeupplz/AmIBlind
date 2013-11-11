@@ -64,9 +64,21 @@
     [self hideTestingView:NO animated:YES];
 }
 
-- (IBAction)test:(id)sender {
+- (IBAction)cancel:(id)sender {
     [self hideBottomAndUpperViews:NO];
     [self hideTestingView:YES animated:YES];
+}
+
+- (IBAction)answerTouched:(UIButton *)sender {
+}
+
+- (IBAction)twitterButtonTouched:(UIButton *)sender {
+}
+
+- (IBAction)facebookButtonTouched:(UIButton *)sender {
+}
+
+- (IBAction)allrightyThenButtonTouched:(UIButton *)sender {
 }
 
 #pragma mark - General methods -
