@@ -23,7 +23,7 @@
 		B3E9074518304F8800E4C2CF /* AmIBlindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9074418304F8800E4C2CF /* AmIBlindTests.m */; };
 		B3E90753183055E300E4C2CF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E90752183055E300E4C2CF /* logo.png */; };
 		B3E9075618305A9800E4C2CF /* NKCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075518305A9800E4C2CF /* NKCheckViewController.m */; };
-		B3E9075918305CF300E4C2CF /* NKLetterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075818305CF300E4C2CF /* NKLetterLabel.m */; };
+		B3E9075918305CF300E4C2CF /* NKSnellenLetterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075818305CF300E4C2CF /* NKSnellenLetterLabel.m */; };
 		B3E9075C18306AF400E4C2CF /* NKLetterTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9075B18306AF400E4C2CF /* NKLetterTable.m */; };
 		B3E9075E1830798700E4C2CF /* siv.png in Resources */ = {isa = PBXBuildFile; fileRef = B3E9075D1830798700E4C2CF /* siv.png */; };
 /* End PBXBuildFile section */
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B33632BE1830910B00F6815C /* Snellen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snellen.ttf; sourceTree = "<group>"; };
 		B3E9071318304F8800E4C2CF /* AmIBlind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmIBlind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E9071618304F8800E4C2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3E9071818304F8800E4C2CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,8 +61,8 @@
 		B3E90752183055E300E4C2CF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		B3E9075418305A9800E4C2CF /* NKCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKCheckViewController.h; sourceTree = "<group>"; };
 		B3E9075518305A9800E4C2CF /* NKCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKCheckViewController.m; sourceTree = "<group>"; };
-		B3E9075718305CF300E4C2CF /* NKLetterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLetterLabel.h; sourceTree = "<group>"; };
-		B3E9075818305CF300E4C2CF /* NKLetterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLetterLabel.m; sourceTree = "<group>"; };
+		B3E9075718305CF300E4C2CF /* NKSnellenLetterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSnellenLetterLabel.h; sourceTree = "<group>"; };
+		B3E9075818305CF300E4C2CF /* NKSnellenLetterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSnellenLetterLabel.m; sourceTree = "<group>"; };
 		B3E9075A18306AF400E4C2CF /* NKLetterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLetterTable.h; sourceTree = "<group>"; };
 		B3E9075B18306AF400E4C2CF /* NKLetterTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLetterTable.m; sourceTree = "<group>"; };
 		B3E9075D1830798700E4C2CF /* siv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siv.png; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 		B3E9071D18304F8800E4C2CF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B33632BE1830910B00F6815C /* Snellen.ttf */,
 				B3E9073118304F8800E4C2CF /* Images.xcassets */,
 				B3E9071E18304F8800E4C2CF /* AmIBlind-Info.plist */,
 				B3E9071F18304F8800E4C2CF /* InfoPlist.strings */,
@@ -178,8 +180,8 @@
 		B3E9074F183055BD00E4C2CF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B3E9075718305CF300E4C2CF /* NKLetterLabel.h */,
-				B3E9075818305CF300E4C2CF /* NKLetterLabel.m */,
+				B3E9075718305CF300E4C2CF /* NKSnellenLetterLabel.h */,
+				B3E9075818305CF300E4C2CF /* NKSnellenLetterLabel.m */,
 				B3E9075A18306AF400E4C2CF /* NKLetterTable.h */,
 				B3E9075B18306AF400E4C2CF /* NKLetterTable.m */,
 			);
@@ -309,7 +311,7 @@
 				B3E9072718304F8800E4C2CF /* NKAppDelegate.m in Sources */,
 				B3E9075618305A9800E4C2CF /* NKCheckViewController.m in Sources */,
 				B3E9075C18306AF400E4C2CF /* NKLetterTable.m in Sources */,
-				B3E9075918305CF300E4C2CF /* NKLetterLabel.m in Sources */,
+				B3E9075918305CF300E4C2CF /* NKSnellenLetterLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "NKLetterTable.h"
-#import "NKLetterLabel.h"
+#import "NKSnellenLetterLabel.h"
 
 @implementation NKLetterTable
 
@@ -15,7 +15,7 @@
  *  Method to randomize all subview letters
  */
 - (void)randomize {
-    for (NKLetterLabel *letter in self.subviews) {
+    for (NKSnellenLetterLabel *letter in self.subviews) {
         [letter randomize];
     }
 }

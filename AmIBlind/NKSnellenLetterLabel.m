@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Nikita Kolmogorov. All rights reserved.
 //
 
-#import "NKLetterLabel.h"
+#import "NKSnellenLetterLabel.h"
 
-@implementation NKLetterLabel
+@implementation NKSnellenLetterLabel
 
 /**
  *  Method to randomize letter. ALso flips it around y-axis

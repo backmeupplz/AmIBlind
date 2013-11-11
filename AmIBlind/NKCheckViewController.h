@@ -12,7 +12,7 @@
 @interface NKCheckViewController : UIViewController
 
 // UI Properties
-@property (weak, nonatomic) IBOutlet NKLetterTable *sivcevTable;
+@property (weak, nonatomic) IBOutlet NKLetterTable *snellenTable;
 
 - (IBAction)sizeSliderChanged:(UISlider *)sender;
 - (IBAction)randomizeTouched:(UIButton *)sender;

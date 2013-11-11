@@ -64,7 +64,6 @@
         <!--Check View Controller-->
         <scene sceneID="vqr-2l-ZTW">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IDb-gn-spG" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="AZc-fu-Mlp" customClass="NKCheckViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ej9-JR-RcG">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
@@ -99,9 +98,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="Srj-6e-iGS"/>
                     <connections>
-                        <outlet property="sivcevTable" destination="x6g-f9-ZrT" id="s9j-PY-ZET"/>
+                        <outlet property="snellenTable" destination="x6g-f9-ZrT" id="i9S-C3-4l6"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IDb-gn-spG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="209" y="-296"/>
         </scene>
