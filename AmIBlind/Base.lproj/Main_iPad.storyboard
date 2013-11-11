@@ -84,7 +84,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="949"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snellen.jpg" id="IYd-8c-blL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snellen.jpg" id="IYd-8c-blL">
                                         <rect key="frame" x="69" y="20" width="631" height="917"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
@@ -515,6 +515,16 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" id="31b-jQ-QWP">
+                                        <rect key="frame" x="201" y="621" width="265" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.72156864404678345" blue="0.28235295414924622" alpha="1" colorSpace="deviceRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" id="LCE-be-TvP">
+                                        <rect key="frame" x="226" y="742" width="214" height="23"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.81568634510040283" green="0.16470588743686676" blue="0.20784315466880798" alpha="1" colorSpace="deviceRGB"/>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
