@@ -37,4 +37,13 @@
     self.transform = CGAffineTransformMakeRotation(M_PI_2*random);
 }
 
+/**
+ *  Method to scale view and it's contents
+ *
+ *  @param scaling Scaling value
+ */
+- (void)setScaling:(float)scaling {
+    self.transform = CGAffineTransformMakeScale(scaling, scaling);
+}
+
 @end

@@ -12,5 +12,6 @@
 
 @required
 - (void)randomize;
+- (void)setScaling:(float)scaling;
 
 @end

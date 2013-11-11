@@ -11,6 +11,20 @@
 
 @implementation NKTestTable
 
+@synthesize contentScaling;
+
+#pragma mark - Accessors -
+
+- (void)setContentScaling:(float)newContentScaling {
+    // Set property
+    contentScaling = newContentScaling;
+    
+    // Change scaling
+    [self updateContentScaling];
+}
+
+#pragma mark - General methods -
+
 /**
  *  Method to randomize all subview letters
  */
@@ -20,6 +34,14 @@
         // If can be randomized, randomize
         if ([view conformsToProtocol:@protocol(NKRandomizableObject)])
             [view randomize];
+}
+
+- (void)updateContentScaling {
+    // Loop over all subviews
+    for (id<NKRandomizableObject> view in self.subviews)
+        // If can be scaled, scale
+        if ([view conformsToProtocol:@protocol(NKRandomizableObject)])
+            [view setScaling:self.contentScaling];
 }
 
 @end

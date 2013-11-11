@@ -10,6 +10,8 @@
 
 @interface NKTestTable : UIView
 
+@property (nonatomic) float contentScaling;
+
 - (void)randomize;
 
 @end

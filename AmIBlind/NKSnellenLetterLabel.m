@@ -8,12 +8,18 @@
 
 #import "NKSnellenLetterLabel.h"
 
-@implementation NKSnellenLetterLabel
+@implementation NKSnellenLetterLabel {
+    CGRect originalFrame;
+}
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
+        // Change font to user defined
         [self changeFont];
+        
+        // Save original frame
+        originalFrame = self.frame;
     }
     return self;
 }
@@ -56,6 +62,15 @@
     
     // Set new letter
     self.text = alphabet[random];
+}
+
+/**
+ *  Method to scale view and it's contents
+ *
+ *  @param scaling Scaling value
+ */
+- (void)setScaling:(float)scaling {
+    self.transform = CGAffineTransformMakeScale(scaling, scaling);
 }
 
 @end

@@ -44,13 +44,7 @@
 }
 
 - (IBAction)sizeSliderChanged:(UISlider *)sender {
-    float value = sender.value;
-    
-    CGPoint center = self.snellenTable.center;
-    CGRect frame = self.snellenTable.frame;
-    frame.size.height = originalHeight * value;
-    self.snellenTable.frame = frame;
-    self.snellenTable.center = center;
+    visibleTable.contentScaling = sender.value;
 }
 
 - (IBAction)randomizeTouched:(UIButton *)sender {
