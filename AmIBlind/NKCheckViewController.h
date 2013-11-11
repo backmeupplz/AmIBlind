@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "NKTestTable.h"
 
-@interface NKCheckViewController : UIViewController
+@interface NKCheckViewController : UIViewController <UIGestureRecognizerDelegate>
 
 // UI Properties
 @property (weak, nonatomic) IBOutlet NKTestTable *snellenTable;
@@ -24,10 +24,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *closeEyeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *choseLetterLabel;
 
-@property (weak, nonatomic) IBOutlet UIButton *buttonOne;
-@property (weak, nonatomic) IBOutlet UIButton *buttonTwo;
-@property (weak, nonatomic) IBOutlet UIButton *buttonThree;
-
 @property (weak, nonatomic) IBOutlet UIButton *cancellButton;
 
 @property (weak, nonatomic) IBOutlet UILabel *yourScoreLabel;
@@ -41,12 +37,14 @@
 - (IBAction)cChartTouched:(UIButton *)sender;
 - (IBAction)sivtsevTouched:(UIButton *)sender;
 
-- (IBAction)sizeSliderChanged:(UISlider *)sender;
+- (IBAction)snellenTapped:(UITapGestureRecognizer *)sender;
+- (IBAction)cChartTapped:(UITapGestureRecognizer *)sender;
+- (IBAction)sivtsevTapped:(UITapGestureRecognizer *)sender;
+- (IBAction)eChartTapped:(UITapGestureRecognizer *)sender;
+
 - (IBAction)randomizeTouched:(UIButton *)sender;
 - (IBAction)takeTestTouched:(UIButton *)sender;
 - (IBAction)cancel:(id)sender;
-
-- (IBAction)answerTouched:(UIButton *)sender;
 
 - (IBAction)twitterButtonTouched:(UIButton *)sender;
 - (IBAction)facebookButtonTouched:(UIButton *)sender;

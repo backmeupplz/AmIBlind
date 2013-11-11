@@ -381,6 +381,10 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="LVd-Lr-Igc" appends="YES" id="zIv-Ot-RTf"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" id="rG9-F9-38k" userLabel="Sivtsev" customClass="NKTestTable">
                                 <rect key="frame" x="0.0" y="35" width="768" height="914"/>
@@ -1015,6 +1019,10 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ig6-Qs-omP" appends="YES" id="Uyp-pn-MJc"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" id="zZU-KW-t5s" userLabel="C chart" customClass="NKTestTable">
                                 <rect key="frame" x="0.0" y="35" width="768" height="914"/>
@@ -1442,6 +1450,10 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SNU-Ga-yr1" appends="YES" id="Wf8-dm-afr"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" id="x6g-f9-ZrT" userLabel="Snellen" customClass="NKTestTable">
                                 <rect key="frame" x="0.0" y="35" width="768" height="914"/>
@@ -1942,6 +1954,10 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="aV6-CQ-DJS" appends="YES" id="Xbf-4J-9IO"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" id="bfV-j9-mch" userLabel="Upper view">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="48"/>
@@ -2009,13 +2025,6 @@
                                             <action selector="randomizeTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="xkW-Bk-xJ3"/>
                                         </connections>
                                     </button>
-                                    <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="1" id="0yb-Bg-Myc">
-                                        <rect key="frame" x="266" y="14" width="236" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="sizeSliderChanged:" destination="AZc-fu-Mlp" eventType="valueChanged" id="WRl-Jy-Gmd"/>
-                                        </connections>
-                                    </slider>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="neL-YC-F99">
                                         <rect key="frame" x="561" y="-1" width="187" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2078,8 +2087,8 @@
                                             <action selector="allrightyThenButtonTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="89i-pM-I7z"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the underlined letter:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L1L-vL-7Xp">
-                                        <rect key="frame" x="20" y="57" width="460" height="34"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch the very bottom line that you can see" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L1L-vL-7Xp">
+                                        <rect key="frame" x="20" y="57" width="585" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
                                         <nil key="highlightedColor"/>
@@ -2096,39 +2105,6 @@
                                         <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oci-Uc-UkY">
-                                        <rect key="frame" x="464" y="39" width="69" height="69"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="49"/>
-                                        <state key="normal" title="E">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="answerTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="Taa-x0-Qdm"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ePb-Lr-iTd">
-                                        <rect key="frame" x="554" y="39" width="69" height="69"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="49"/>
-                                        <state key="normal" title="F">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="answerTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="wqI-Sy-cCj"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pAQ-pF-S1R">
-                                        <rect key="frame" x="644" y="39" width="69" height="69"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="49"/>
-                                        <state key="normal" title="P">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="answerTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="zLe-3O-5lB"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -2140,9 +2116,6 @@
                     <connections>
                         <outlet property="alrightyThenButton" destination="jOF-m7-zhf" id="de8-fH-ISW"/>
                         <outlet property="bottomView" destination="BGV-Df-XQD" id="1Qm-rM-9hP"/>
-                        <outlet property="buttonOne" destination="oci-Uc-UkY" id="FuT-33-OIa"/>
-                        <outlet property="buttonThree" destination="pAQ-pF-S1R" id="REs-gT-8M8"/>
-                        <outlet property="buttonTwo" destination="ePb-Lr-iTd" id="G3E-z2-h21"/>
                         <outlet property="cChartTable" destination="zZU-KW-t5s" id="yxc-Mt-ezX"/>
                         <outlet property="cancellButton" destination="O2c-WY-SGZ" id="wga-bm-KPU"/>
                         <outlet property="choseLetterLabel" destination="L1L-vL-7Xp" id="mB5-NG-oa2"/>
@@ -2158,6 +2131,26 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IDb-gn-spG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aV6-CQ-DJS">
+                    <connections>
+                        <action selector="snellenTapped:" destination="AZc-fu-Mlp" id="Uvw-6E-af6"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="SNU-Ga-yr1">
+                    <connections>
+                        <action selector="cChartTapped:" destination="AZc-fu-Mlp" id="4O9-Ah-UCi"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Ig6-Qs-omP">
+                    <connections>
+                        <action selector="sivtsevTapped:" destination="AZc-fu-Mlp" id="hz5-JV-piL"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="LVd-Lr-Igc">
+                    <connections>
+                        <action selector="eChartTapped:" destination="AZc-fu-Mlp" id="9m6-js-pIX"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="617" y="-1032"/>
         </scene>

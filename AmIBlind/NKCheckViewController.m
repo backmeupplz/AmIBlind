@@ -8,21 +8,23 @@
 
 #import "NKCheckViewController.h"
 #import "NKSnellenLetterLabel.h"
+#import <Social/Social.h>
 
 #define animationDuration 0.5
 
 @implementation NKCheckViewController {
     NKTestTable *visibleTable;
     
-    float originalHeight;
+    NSString *left;
+    NSString *right;
+    
+    BOOL testingInProgress;
 }
 
 #pragma mark - View Controller life cycle -
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    originalHeight = self.snellenTable.frame.size.height;
     
     // Show Snellen table first
     [self showTable:self.snellenTable];
@@ -49,8 +51,140 @@
     [self showTable:self.sivtsevTable];
 }
 
-- (IBAction)sizeSliderChanged:(UISlider *)sender {
-    visibleTable.contentScaling = sender.value;
+- (IBAction)snellenTapped:(UITapGestureRecognizer *)sender {
+    if (testingInProgress) {
+        CGPoint location = [sender locationInView:sender.view];
+        float y = location.y;
+        NSString *result;
+        if (y > 680)
+            result = @"20/20";
+        else if (y > 610)
+            result = @"20/25";
+        else if (y > 540)
+            result = @"20/30";
+        else if (y > 500)
+            result = @"20/40";
+        else if (y > 440)
+            result = @"20/50";
+        else if (y > 350)
+            result = @"20/70";
+        else if (y > 230)
+            result = @"20/100";
+        else
+            result = @"20/200";
+        
+        if (left == nil) {
+            left = result;
+            self.closeEyeLabel.text =  @"Close your left eye";
+        } else {
+            right = result;
+            [self finishTest];
+        }
+    }
+}
+
+- (IBAction)cChartTapped:(UITapGestureRecognizer *)sender {
+    if (testingInProgress) {
+        CGPoint location = [sender locationInView:sender.view];
+        float y = location.y;
+        NSString *result;
+        if (y > 775)
+            result = @"1,0";
+        else if (y > 730)
+            result = @"0,9";
+        else if (y > 660)
+            result = @"0,8";
+        else if (y > 600)
+            result = @"0,7";
+        else if (y > 550)
+            result = @"0,6";
+        else if (y > 470)
+            result = @"0,5";
+        else if (y > 420)
+            result = @"0,4";
+        else if (y > 350)
+            result = @"0,3";
+        else if (y > 210)
+            result = @"0,2";
+        else
+            result = @"0,1";
+        
+        if (left == nil) {
+            left = result;
+            self.closeEyeLabel.text =  @"Close your left eye";
+        } else {
+            right = result;
+            [self finishTest];
+        }
+    }
+}
+
+- (IBAction)sivtsevTapped:(UITapGestureRecognizer *)sender {
+    if (testingInProgress) {
+        CGPoint location = [sender locationInView:sender.view];
+        float y = location.y;
+        NSString *result;
+        if (y > 775)
+            result = @"1,0";
+        else if (y > 730)
+            result = @"0,9";
+        else if (y > 660)
+            result = @"0,8";
+        else if (y > 600)
+            result = @"0,7";
+        else if (y > 550)
+            result = @"0,6";
+        else if (y > 470)
+            result = @"0,5";
+        else if (y > 420)
+            result = @"0,4";
+        else if (y > 350)
+            result = @"0,3";
+        else if (y > 210)
+            result = @"0,2";
+        else
+            result = @"0,1";
+        
+        if (left == nil) {
+            left = result;
+            self.closeEyeLabel.text =  @"Close your left eye";
+        } else {
+            right = result;
+            [self finishTest];
+        }
+    }
+}
+
+- (IBAction)eChartTapped:(UITapGestureRecognizer *)sender {
+    if (testingInProgress) {
+        CGPoint location = [sender locationInView:sender.view];
+        float y = location.y;
+        NSString *result;
+        if (y > 680)
+            result = @"20/20";
+        else if (y > 610)
+            result = @"20/25";
+        else if (y > 540)
+            result = @"20/30";
+        else if (y > 500)
+            result = @"20/40";
+        else if (y > 440)
+            result = @"20/50";
+        else if (y > 350)
+            result = @"20/70";
+        else if (y > 230)
+            result = @"20/100";
+        else
+            result = @"20/200";
+        
+        if (left == nil) {
+            left = result;
+            self.closeEyeLabel.text =  @"Close your left eye";
+        } else {
+            right = result;
+            [self finishTest];
+        }
+    }
 }
 
 - (IBAction)randomizeTouched:(UIButton *)sender {
@@ -68,9 +202,6 @@
     // Show all necessary views
     self.closeEyeLabel.hidden = NO;
     self.choseLetterLabel.hidden = NO;
-    self.buttonOne.hidden = NO;
-    self.buttonTwo.hidden = NO;
-    self.buttonThree.hidden = NO;
     self.cancellButton.hidden = NO;
     
     // Hide everything else
@@ -81,34 +212,46 @@
     
     // Fill the right text
     self.closeEyeLabel.text = @"Close your right eye";
-    if ([visibleTable.subviews[3] isKindOfClass:[NKSnellenLetterLabel class]])
-        self.choseLetterLabel.text = @"Choose the letter marked below:";
-    else
-        self.choseLetterLabel.text = @"Choose the symbol marked below:";
+    
+    testingInProgress = YES;
+    left = nil;
+    right = nil;
 }
 
 - (IBAction)cancel:(id)sender {
     [self hideBottomAndUpperViews:NO];
     [self hideTestingView:YES animated:YES];
-}
-
-- (IBAction)answerTouched:(UIButton *)sender {
-    [self finishTestWithLeftEye:@"1.0" andRightEye:@"1.0"];
+    testingInProgress = NO;
+    left = nil;
+    right = nil;
 }
 
 - (IBAction)twitterButtonTouched:(UIButton *)sender {
-    [self hideTestingView:YES animated:YES];
-    [self hideBottomAndUpperViews:NO];
+    SLComposeViewController *twi = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    
+    [twi setInitialText:[NSString stringWithFormat:@"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)",left,right]];
+    
+    [self presentViewController:twi animated:YES completion:nil];
 }
 
 - (IBAction)facebookButtonTouched:(UIButton *)sender {
-    [self hideTestingView:YES animated:YES];
-    [self hideBottomAndUpperViews:NO];
+    SLComposeViewController *fb = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+    
+    [fb setInitialText:[NSString stringWithFormat:@"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)",left,right]];
+    fb.completionHandler = ^(SLComposeViewControllerResult result) {
+        [self dismissViewControllerAnimated:YES completion:nil];
+    };
+    
+    [self presentViewController:fb animated:YES completion:nil];
 }
 
 - (IBAction)allrightyThenButtonTouched:(UIButton *)sender {
     [self hideTestingView:YES animated:YES];
     [self hideBottomAndUpperViews:NO];
+    
+    testingInProgress = NO;
+    left = nil;
+    right = nil;
 }
 
 #pragma mark - General methods -
@@ -167,9 +310,9 @@
     }
 }
 
-- (void)finishTestWithLeftEye:(NSString *)leftResult andRightEye:(NSString *)rightResult {
+- (void)finishTest {
     // Set right score label
-    self.yourScoreLabel.text = [NSString stringWithFormat:@"Your score is: %@ (left), %@ (right)",leftResult,rightResult];
+    self.yourScoreLabel.text = [NSString stringWithFormat:@"Your score is: %@ (left), %@ (right)",left,right];
     
     // Show necessary views
     self.yourScoreLabel.hidden = NO;
@@ -181,9 +324,6 @@
     self.cancellButton.hidden = YES;
     self.closeEyeLabel.hidden = YES;
     self.choseLetterLabel.hidden = YES;
-    self.buttonOne.hidden = YES;
-    self.buttonTwo.hidden = YES;
-    self.buttonThree.hidden = YES;
 }
 
 #pragma mark - Status bar -
