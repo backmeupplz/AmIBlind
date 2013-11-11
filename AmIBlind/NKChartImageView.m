@@ -6,13 +6,14 @@
 //  Copyright (c) 2013 Nikita Kolmogorov. All rights reserved.
 //
 
-#import "NKEChartImageView.h"
+#import "NKChartImageView.h"
 
-@implementation NKEChartImageView
+@implementation NKChartImageView
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
+        // Randomize for the first time
         [self randomizeWithoutAnimation];
     }
     return self;

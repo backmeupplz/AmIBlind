@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "NKRandomizableObject.h"
 
-@interface NKEChartImageView : UIImageView <NKRandomizableObject>
+@interface NKChartImageView : UIImageView <NKRandomizableObject>
 
 @end
