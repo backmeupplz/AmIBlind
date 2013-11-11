@@ -581,7 +581,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="rG9-F9-38k" userLabel="Sivtsev" customClass="NKTestTable">
-                                <rect key="frame" x="0.0" y="55" width="768" height="914"/>
+                                <rect key="frame" x="0.0" y="35" width="768" height="914"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="11Y-oR-Wbj" customClass="NKSnellenLetterLabel">
@@ -1088,7 +1088,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="qfv-6O-TZn" userLabel="C chart" customClass="NKTestTable">
-                                <rect key="frame" x="0.0" y="55" width="768" height="914"/>
+                                <rect key="frame" x="0.0" y="35" width="768" height="914"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e.gif" id="zuk-kp-9lL" customClass="NKEChartImageView">
