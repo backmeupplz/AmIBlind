@@ -13,5 +13,7 @@
 @required
 - (void)randomize;
 - (void)setScaling:(float)scaling;
+- (void)addBorder;
+- (void)removeBorder;
 
 @end

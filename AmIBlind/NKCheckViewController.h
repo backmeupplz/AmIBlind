@@ -17,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet NKTestTable *cChartTable;
 @property (weak, nonatomic) IBOutlet NKTestTable *sivtsevTable;
 
+@property (weak, nonatomic) IBOutlet UIView *testingView;
+@property (weak, nonatomic) IBOutlet UIView *upperView;
 @property (weak, nonatomic) IBOutlet UIView *bottomView;
 
 - (IBAction)snellenTouched:(UIButton *)sender;
@@ -26,5 +28,7 @@
 
 - (IBAction)sizeSliderChanged:(UISlider *)sender;
 - (IBAction)randomizeTouched:(UIButton *)sender;
+- (IBAction)takeTestTouched:(UIButton *)sender;
+- (IBAction)test:(id)sender;
 
 @end

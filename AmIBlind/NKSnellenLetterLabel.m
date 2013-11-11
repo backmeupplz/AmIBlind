@@ -10,6 +10,8 @@
 
 @implementation NKSnellenLetterLabel {
     CGRect originalFrame;
+    
+    UIView *line;
 }
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
@@ -71,6 +73,24 @@
  */
 - (void)setScaling:(float)scaling {
     self.transform = CGAffineTransformMakeScale(scaling, scaling);
+}
+
+/**
+ *  Method to add light blue border
+ */
+- (void)addBorder {
+    // Add border
+    self.layer.borderColor = [UIColor colorWithRed:0.0f green:0.34f blue:0.62f alpha:1.0f].CGColor;
+    self.layer.borderWidth = 1.0;
+}
+
+/**
+ *  Method to remove border
+ */
+- (void)removeBorder {
+    // Remove border
+    self.layer.borderColor = [UIColor clearColor].CGColor;
+    self.layer.borderWidth = 0.0;
 }
 
 @end
