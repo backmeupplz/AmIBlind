@@ -1,0 +1,636 @@
+
+/* Class = "IBUILabel"; text = "C"; ObjectID = "09I-LT-90G"; */
+"09I-LT-90G.text" = "C";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "0K7-HW-axk"; */
+"0K7-HW-axk.text" = "И";
+
+/* Class = "IBUIButton"; normalTitle = "Snellen"; ObjectID = "0Nl-hw-XN1"; */
+"0Nl-hw-XN1.normalTitle" = "Snellen";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "0uD-Ty-WSs"; */
+"0uD-Ty-WSs.text" = "P";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "19K-C6-ypI"; */
+"19K-C6-ypI.text" = "P";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "1Z7-Hz-Wkv"; */
+"1Z7-Hz-Wkv.text" = "К";
+
+/* Class = "IBUILabel"; text = "20/200"; ObjectID = "1as-Rw-DMm"; */
+"1as-Rw-DMm.text" = "20/200";
+
+/* Class = "IBUILabel"; text = "20/40"; ObjectID = "1l4-tT-xZN"; */
+"1l4-tT-xZN.text" = "20/40";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "1tc-Zh-r9H"; */
+"1tc-Zh-r9H.text" = "И";
+
+/* Class = "IBUILabel"; text = "V = 2,0"; ObjectID = "1wu-8B-Ha0"; */
+"1wu-8B-Ha0.text" = "V = 2,0";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "23g-uG-I7K"; */
+"23g-uG-I7K.text" = "E";
+
+/* Class = "IBUILabel"; text = "C"; ObjectID = "23t-c1-eDu"; */
+"23t-c1-eDu.text" = "C";
+
+/* Class = "IBUILabel"; text = "Close your left eye"; ObjectID = "3Rc-Fw-UZC"; */
+"3Rc-Fw-UZC.text" = "Close your left eye";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "3Sd-3C-hKy"; */
+"3Sd-3C-hKy.text" = "И";
+
+/* Class = "IBUILabel"; text = "V = 0,8"; ObjectID = "46R-oz-4GY"; */
+"46R-oz-4GY.text" = "V = 0,8";
+
+/* Class = "IBUILabel"; text = "V = 0,5"; ObjectID = "52O-sR-jU2"; */
+"52O-sR-jU2.text" = "V = 0,5";
+
+/* Class = "IBUILabel"; text = "Z"; ObjectID = "55z-a8-jpe"; */
+"55z-a8-jpe.text" = "Z";
+
+/* Class = "IBUILabel"; text = "F"; ObjectID = "5Qd-7v-0Mw"; */
+"5Qd-7v-0Mw.text" = "F";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "62O-ED-xfR"; */
+"62O-ED-xfR.text" = "Н";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "6Ef-xM-SRl"; */
+"6Ef-xM-SRl.text" = "D";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "6l8-jZ-zg2"; */
+"6l8-jZ-zg2.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "6xy-zn-aFC"; */
+"6xy-zn-aFC.text" = "E";
+
+/* Class = "IBUILabel"; text = "L"; ObjectID = "75g-mP-K5U"; */
+"75g-mP-K5U.text" = "L";
+
+/* Class = "IBUILabel"; text = "V = 0,2"; ObjectID = "7H0-wZ-jnJ"; */
+"7H0-wZ-jnJ.text" = "V = 0,2";
+
+/* Class = "IBUILabel"; text = "T"; ObjectID = "7Q8-1A-eGO"; */
+"7Q8-1A-eGO.text" = "T";
+
+/* Class = "IBUILabel"; text = "T"; ObjectID = "7dP-hu-SJr"; */
+"7dP-hu-SJr.text" = "T";
+
+/* Class = "IBUILabel"; text = "L"; ObjectID = "86H-Br-1hx"; */
+"86H-Br-1hx.text" = "L";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "89l-xI-Gqf"; */
+"89l-xI-Gqf.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "8PJ-4j-P48"; */
+"8PJ-4j-P48.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "L"; ObjectID = "8S3-SM-SSC"; */
+"8S3-SM-SSC.text" = "L";
+
+/* Class = "IBUILabel"; text = "D = 25,0"; ObjectID = "8Te-wk-t1S"; */
+"8Te-wk-t1S.text" = "D = 25,0";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "8xM-2h-eVz"; */
+"8xM-2h-eVz.text" = "И";
+
+/* Class = "IBUILabel"; text = "D = 50,0"; ObjectID = "98F-gw-g4J"; */
+"98F-gw-g4J.text" = "D = 50,0";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "9Pl-51-7u5"; */
+"9Pl-51-7u5.text" = "Н";
+
+/* Class = "IBUILabel"; text = "Introduced by Nikita Kolmogorov"; ObjectID = "A2N-dH-6iU"; */
+"A2N-dH-6iU.text" = "Introduced by Nikita Kolmogorov";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "AAG-Kz-diH"; */
+"AAG-Kz-diH.text" = "Б";
+
+/* Class = "IBUILabel"; text = "20/100"; ObjectID = "AB3-gF-ud0"; */
+"AB3-gF-ud0.text" = "20/100";
+
+/* Class = "IBUILabel"; text = "D = 5,55"; ObjectID = "ARi-CE-RD8"; */
+"ARi-CE-RD8.text" = "D = 5,55";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "B14-7Z-wLi"; */
+"B14-7Z-wLi.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "D = 16,67"; ObjectID = "B2E-Fh-Pyj"; */
+"B2E-Fh-Pyj.text" = "D = 16,67";
+
+/* Class = "IBUILabel"; text = "Check it out, my friend"; ObjectID = "BGP-UX-Voh"; */
+"BGP-UX-Voh.text" = "Check it out, my friend";
+
+/* Class = "IBUILabel"; text = "D = 12,5"; ObjectID = "BLc-uS-YWL"; */
+"BLc-uS-YWL.text" = "D = 12,5";
+
+/* Class = "IBUIButton"; normalTitle = "Facebook"; ObjectID = "BQm-5P-gO1"; */
+"BQm-5P-gO1.normalTitle" = "Facebook";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "BWB-0S-tOi"; */
+"BWB-0S-tOi.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "V = 0,1"; ObjectID = "BsH-PO-ftG"; */
+"BsH-PO-ftG.text" = "V = 0,1";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "Bty-Vg-ecQ"; */
+"Bty-Vg-ecQ.text" = "Б";
+
+/* Class = "IBUILabel"; text = "O"; ObjectID = "C5F-7k-cB2"; */
+"C5F-7k-cB2.text" = "O";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "CSY-xw-5uu"; */
+"CSY-xw-5uu.text" = "Б";
+
+/* Class = "IBUILabel"; text = "20/20"; ObjectID = "Cj3-HZ-GNg"; */
+"Cj3-HZ-GNg.text" = "20/20";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "DGd-On-Q8R"; */
+"DGd-On-Q8R.text" = "М";
+
+/* Class = "IBUILabel"; text = "V = 0,8"; ObjectID = "DUv-uA-rdl"; */
+"DUv-uA-rdl.text" = "V = 0,8";
+
+/* Class = "IBUILabel"; text = "20/30"; ObjectID = "Dfr-ES-zmj"; */
+"Dfr-ES-zmj.text" = "20/30";
+
+/* Class = "IBUILabel"; text = "O"; ObjectID = "Drb-Bd-p4j"; */
+"Drb-Bd-p4j.text" = "O";
+
+/* Class = "IBUILabel"; text = "F"; ObjectID = "Ds8-eP-FqG"; */
+"Ds8-eP-FqG.text" = "F";
+
+/* Class = "IBUILabel"; text = "V = 0,4"; ObjectID = "EOA-Pl-slv"; */
+"EOA-Pl-slv.text" = "V = 0,4";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "EXy-Bt-vV5"; */
+"EXy-Bt-vV5.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "EdC-oV-X1W"; */
+"EdC-oV-X1W.text" = "К";
+
+/* Class = "IBUILabel"; text = "V = 0,4"; ObjectID = "F5I-Da-edv"; */
+"F5I-Da-edv.text" = "V = 0,4";
+
+/* Class = "IBUILabel"; text = "O"; ObjectID = "Fs9-bP-GKm"; */
+"Fs9-bP-GKm.text" = "O";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "Fuw-yA-82e"; */
+"Fuw-yA-82e.text" = "Б";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "FwA-zT-0vl"; */
+"FwA-zT-0vl.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "D = 5,55"; ObjectID = "G8n-ew-fAO"; */
+"G8n-ew-fAO.text" = "D = 5,55";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "GDx-8c-ijh"; */
+"GDx-8c-ijh.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "T"; ObjectID = "GNH-dR-s1b"; */
+"GNH-dR-s1b.text" = "T";
+
+/* Class = "IBUILabel"; text = "V = 0,7"; ObjectID = "Ggc-Y7-CJF"; */
+"Ggc-Y7-CJF.text" = "V = 0,7";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "H0L-CX-v1e"; */
+"H0L-CX-v1e.text" = "P";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "HGt-Ax-Dzw"; */
+"HGt-Ax-Dzw.text" = "D";
+
+/* Class = "IBUILabel"; text = "20/70"; ObjectID = "HX1-Hk-swk"; */
+"HX1-Hk-swk.text" = "20/70";
+
+/* Class = "IBUILabel"; text = "V = 0,6"; ObjectID = "I13-Jn-XzR"; */
+"I13-Jn-XzR.text" = "V = 0,6";
+
+/* Class = "IBUILabel"; text = "D = 10,0"; ObjectID = "IEM-xm-C10"; */
+"IEM-xm-C10.text" = "D = 10,0";
+
+/* Class = "IBUILabel"; text = "V = 1,5"; ObjectID = "IR6-VK-LfY"; */
+"IR6-VK-LfY.text" = "V = 1,5";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "Icy-ET-CFl"; */
+"Icy-ET-CFl.text" = "Н";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "Ig0-za-CUr"; */
+"Ig0-za-CUr.text" = "D";
+
+/* Class = "IBUILabel"; text = "V = 0,7"; ObjectID = "Ikl-LC-7HP"; */
+"Ikl-LC-7HP.text" = "V = 0,7";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "In7-qD-x8E"; */
+"In7-qD-x8E.text" = "Б";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "JDW-Xc-Ckd"; */
+"JDW-Xc-Ckd.text" = "М";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "JEV-Ph-ZL5"; */
+"JEV-Ph-ZL5.text" = "E";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "JOL-f4-Z9J"; */
+"JOL-f4-Z9J.text" = "E";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "JnF-NL-Yi1"; */
+"JnF-NL-Yi1.text" = "Н";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "Jng-wB-zR3"; */
+"Jng-wB-zR3.text" = "D";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "K7H-Pn-RNp"; */
+"K7H-Pn-RNp.text" = "E";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "K9j-pK-P8B"; */
+"K9j-pK-P8B.text" = "К";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "KKb-71-VhL"; */
+"KKb-71-VhL.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "20/70"; ObjectID = "KQk-PF-k3J"; */
+"KQk-PF-k3J.text" = "20/70";
+
+/* Class = "IBUILabel"; text = "D = 16,67"; ObjectID = "Kpv-C1-mxH"; */
+"Kpv-C1-mxH.text" = "D = 16,67";
+
+/* Class = "IBUILabel"; text = "Touch the very bottom line that you can see"; ObjectID = "L1L-vL-7Xp"; */
+"L1L-vL-7Xp.text" = "Touch the very bottom line that you can see";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "LN3-o3-KLT"; */
+"LN3-o3-KLT.text" = "E";
+
+/* Class = "IBUILabel"; text = "D = 50,0"; ObjectID = "LZB-mX-UDY"; */
+"LZB-mX-UDY.text" = "D = 50,0";
+
+/* Class = "IBUILabel"; text = "20/25"; ObjectID = "MUc-N8-w0d"; */
+"MUc-N8-w0d.text" = "20/25";
+
+/* Class = "IBUILabel"; text = "D = 5,0"; ObjectID = "N0C-Nm-4Y2"; */
+"N0C-Nm-4Y2.text" = "D = 5,0";
+
+/* Class = "IBUIButton"; normalTitle = "Sivtsev"; ObjectID = "NAV-Jv-BHj"; */
+"NAV-Jv-BHj.normalTitle" = "Sivtsev";
+
+/* Class = "IBUILabel"; text = "Z"; ObjectID = "NGE-5F-8pN"; */
+"NGE-5F-8pN.text" = "Z";
+
+/* Class = "IBUILabel"; text = "V = 0,9"; ObjectID = "NPy-MW-M8Z"; */
+"NPy-MW-M8Z.text" = "V = 0,9";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "NyS-DY-FRX"; */
+"NyS-DY-FRX.text" = "E";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "O2c-WY-SGZ"; */
+"O2c-WY-SGZ.normalTitle" = "Cancel";
+
+/* Class = "IBUILabel"; text = "Z"; ObjectID = "OXN-b1-hym"; */
+"OXN-b1-hym.text" = "Z";
+
+/* Class = "IBUILabel"; text = "D = 10,0"; ObjectID = "P0e-tZ-Ghb"; */
+"P0e-tZ-Ghb.text" = "D = 10,0";
+
+/* Class = "IBUILabel"; text = "O"; ObjectID = "PHT-og-GI1"; */
+"PHT-og-GI1.text" = "O";
+
+/* Class = "IBUILabel"; text = "(Hold your iPad in straight hands)"; ObjectID = "PMs-9C-F4Y"; */
+"PMs-9C-F4Y.text" = "(Hold your iPad in straight hands)";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "Q3h-SR-Rfk"; */
+"Q3h-SR-Rfk.text" = "И";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "QgC-Px-v6V"; */
+"QgC-Px-v6V.text" = "P";
+
+/* Class = "IBUILabel"; text = "F"; ObjectID = "Qpg-hF-hdY"; */
+"Qpg-hF-hdY.text" = "F";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "QqY-f1-NBT"; */
+"QqY-f1-NBT.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "V = 2,0"; ObjectID = "S8o-sr-iij"; */
+"S8o-sr-iij.text" = "V = 2,0";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "ShZ-EF-vyg"; */
+"ShZ-EF-vyg.text" = "М";
+
+/* Class = "IBUILabel"; text = "C"; ObjectID = "Stn-1p-2Yf"; */
+"Stn-1p-2Yf.text" = "C";
+
+/* Class = "IBUILabel"; text = "F"; ObjectID = "T8R-sZ-uoU"; */
+"T8R-sZ-uoU.text" = "F";
+
+/* Class = "IBUILabel"; text = "D = 6,25"; ObjectID = "VR8-0t-NVw"; */
+"VR8-0t-NVw.text" = "D = 6,25";
+
+/* Class = "IBUILabel"; text = "F"; ObjectID = "Vi2-Xh-AFS"; */
+"Vi2-Xh-AFS.text" = "F";
+
+/* Class = "IBUILabel"; text = "20/20"; ObjectID = "Vu6-Qf-yld"; */
+"Vu6-Qf-yld.text" = "20/20";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "WDJ-MU-K5N"; */
+"WDJ-MU-K5N.text" = "М";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "WZs-DL-whG"; */
+"WZs-DL-whG.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "D = 7,14"; ObjectID = "WfN-T2-c3a"; */
+"WfN-T2-c3a.text" = "D = 7,14";
+
+/* Class = "IBUILabel"; text = "V = 0,3"; ObjectID = "WhR-dS-6VV"; */
+"WhR-dS-6VV.text" = "V = 0,3";
+
+/* Class = "IBUILabel"; text = "20/30"; ObjectID = "XQa-NT-OTG"; */
+"XQa-NT-OTG.text" = "20/30";
+
+/* Class = "IBUILabel"; text = "T"; ObjectID = "Xgq-tn-F86"; */
+"Xgq-tn-F86.text" = "T";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "YGL-aM-3RV"; */
+"YGL-aM-3RV.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "V = 0,3"; ObjectID = "ZO1-bv-Bii"; */
+"ZO1-bv-Bii.text" = "V = 0,3";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "ZUA-UV-RkF"; */
+"ZUA-UV-RkF.text" = "E";
+
+/* Class = "IBUILabel"; text = "20/40"; ObjectID = "ZZh-vw-pP0"; */
+"ZZh-vw-pP0.text" = "20/40";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "ZxJ-Ur-Bs5"; */
+"ZxJ-Ur-Bs5.text" = "Б";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "a0a-ix-D48"; */
+"a0a-ix-D48.text" = "И";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "aEo-Ny-Rk2"; */
+"aEo-Ny-Rk2.text" = "И";
+
+/* Class = "IBUILabel"; text = "C"; ObjectID = "aJ3-bq-Wdd"; */
+"aJ3-bq-Wdd.text" = "C";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "aLe-se-EBf"; */
+"aLe-se-EBf.text" = "Н";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "aOy-Di-Hpc"; */
+"aOy-Di-Hpc.text" = "М";
+
+/* Class = "IBUILabel"; text = "D = 8,33"; ObjectID = "aXD-5U-laH"; */
+"aXD-5U-laH.text" = "D = 8,33";
+
+/* Class = "IBUIButton"; normalTitle = "Twitter"; ObjectID = "adK-hk-Hj9"; */
+"adK-hk-Hj9.normalTitle" = "Twitter";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "arO-uK-1Mk"; */
+"arO-uK-1Mk.text" = "E";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "ax7-Jv-twQ"; */
+"ax7-Jv-twQ.text" = "Н";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "b2e-ej-yYy"; */
+"b2e-ej-yYy.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "bA0-V1-PV0"; */
+"bA0-V1-PV0.text" = "Б";
+
+/* Class = "IBUILabel"; text = "Z"; ObjectID = "bcH-uA-OXX"; */
+"bcH-uA-OXX.text" = "Z";
+
+/* Class = "IBUILabel"; text = "Ы"; ObjectID = "bgk-VL-EDF"; */
+"bgk-VL-EDF.text" = "Ы";
+
+/* Class = "IBUILabel"; text = "V = 0,9"; ObjectID = "c6F-yR-jvq"; */
+"c6F-yR-jvq.text" = "V = 0,9";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "c8X-OW-nq2"; */
+"c8X-OW-nq2.text" = "И";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "cEh-3h-2LA"; */
+"cEh-3h-2LA.text" = "М";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "ccc-yG-biZ"; */
+"ccc-yG-biZ.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "20/25"; ObjectID = "dcX-zX-MNQ"; */
+"dcX-zX-MNQ.text" = "20/25";
+
+/* Class = "IBUILabel"; text = "O"; ObjectID = "e15-7p-69E"; */
+"e15-7p-69E.text" = "O";
+
+/* Class = "IBUILabel"; text = "V = 0,5"; ObjectID = "e5E-xr-9Xy"; */
+"e5E-xr-9Xy.text" = "V = 0,5";
+
+/* Class = "IBUILabel"; text = "V = 0,1"; ObjectID = "eES-bc-Hbn"; */
+"eES-bc-Hbn.text" = "V = 0,1";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "eEd-Jj-0n1"; */
+"eEd-Jj-0n1.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "И"; ObjectID = "eFy-ZZ-sf2"; */
+"eFy-ZZ-sf2.text" = "И";
+
+/* Class = "IBUILabel"; text = "20/50"; ObjectID = "eOa-U6-fz4"; */
+"eOa-U6-fz4.text" = "20/50";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "eRh-g2-IkJ"; */
+"eRh-g2-IkJ.text" = "Н";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "edV-Ji-tbb"; */
+"edV-Ji-tbb.text" = "К";
+
+/* Class = "IBUILabel"; text = "F"; ObjectID = "fSA-8v-2S0"; */
+"fSA-8v-2S0.text" = "F";
+
+/* Class = "IBUILabel"; text = "D = 5,0"; ObjectID = "fbU-kg-g68"; */
+"fbU-kg-g68.text" = "D = 5,0";
+
+/* Class = "IBUIButton"; normalTitle = "Check your eyes"; ObjectID = "grC-2y-xAh"; */
+"grC-2y-xAh.normalTitle" = "Check your eyes";
+
+/* Class = "IBUILabel"; text = "C"; ObjectID = "h7F-q9-tGf"; */
+"h7F-q9-tGf.text" = "C";
+
+/* Class = "IBUILabel"; text = "V = 0,2"; ObjectID = "hJa-xl-0ql"; */
+"hJa-xl-0ql.text" = "V = 0,2";
+
+/* Class = "IBUIButton"; normalTitle = "C chart"; ObjectID = "hOX-zO-hhD"; */
+"hOX-zO-hhD.normalTitle" = "C chart";
+
+/* Class = "IBUILabel"; text = "V = 0,6"; ObjectID = "hZa-1P-ZnY"; */
+"hZa-1P-ZnY.text" = "V = 0,6";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "hjQ-yo-BCP"; */
+"hjQ-yo-BCP.text" = "Б";
+
+/* Class = "IBUILabel"; text = "T"; ObjectID = "hpI-te-Jub"; */
+"hpI-te-Jub.text" = "T";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "iFd-Sy-veX"; */
+"iFd-Sy-veX.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "iNX-8n-eVu"; */
+"iNX-8n-eVu.text" = "P";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "iVV-PH-24d"; */
+"iVV-PH-24d.text" = "М";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "iYk-fJ-y1X"; */
+"iYk-fJ-y1X.text" = "P";
+
+/* Class = "IBUIButton"; normalTitle = "Alrighty then!"; ObjectID = "jOF-m7-zhf"; */
+"jOF-m7-zhf.normalTitle" = "Alrighty then!";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "jTj-dH-qwk"; */
+"jTj-dH-qwk.text" = "D";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "jbR-Rp-c4D"; */
+"jbR-Rp-c4D.text" = "Н";
+
+/* Class = "IBUILabel"; text = "V = 1,0"; ObjectID = "jkY-5A-BmL"; */
+"jkY-5A-BmL.text" = "V = 1,0";
+
+/* Class = "IBUILabel"; text = "Z"; ObjectID = "jqn-1V-VPS"; */
+"jqn-1V-VPS.text" = "Z";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "k70-nX-D8D"; */
+"k70-nX-D8D.text" = "D";
+
+/* Class = "IBUILabel"; text = "C"; ObjectID = "k7r-bY-wPf"; */
+"k7r-bY-wPf.text" = "C";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "khS-Cq-9O9"; */
+"khS-Cq-9O9.text" = "К";
+
+/* Class = "IBUILabel"; text = "D = 7,14"; ObjectID = "lWj-Em-h0W"; */
+"lWj-Em-h0W.text" = "D = 7,14";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "mGK-Ir-wt5"; */
+"mGK-Ir-wt5.text" = "D";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "nbM-3e-o3f"; */
+"nbM-3e-o3f.text" = "М";
+
+/* Class = "IBUIButton"; normalTitle = "Take test"; ObjectID = "neL-YC-F99"; */
+"neL-YC-F99.normalTitle" = "Take test";
+
+/* Class = "IBUILabel"; text = "D = 3,33"; ObjectID = "oCw-3o-ioR"; */
+"oCw-3o-ioR.text" = "D = 3,33";
+
+/* Class = "IBUILabel"; text = "V = 1,0"; ObjectID = "oQ2-Ln-ATm"; */
+"oQ2-Ln-ATm.text" = "V = 1,0";
+
+/* Class = "IBUILabel"; text = "Am I Blind?"; ObjectID = "p7N-jO-Oh9"; */
+"p7N-jO-Oh9.text" = "Am I Blind?";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "pNh-ts-tfj"; */
+"pNh-ts-tfj.text" = "Б";
+
+/* Class = "IBUILabel"; text = "D = 3,33"; ObjectID = "pdd-dC-K0D"; */
+"pdd-dC-K0D.text" = "D = 3,33";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "qBh-lY-ViK"; */
+"qBh-lY-ViK.text" = "Б";
+
+/* Class = "IBUILabel"; text = "20/50"; ObjectID = "qN1-8g-VYf"; */
+"qN1-8g-VYf.text" = "20/50";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "qgo-Nc-XH9"; */
+"qgo-Nc-XH9.text" = "P";
+
+/* Class = "IBUIButton"; normalTitle = "Randomize"; ObjectID = "qm8-yD-oc6"; */
+"qm8-yD-oc6.normalTitle" = "Randomize";
+
+/* Class = "IBUILabel"; text = "E"; ObjectID = "qrB-r0-hxa"; */
+"qrB-r0-hxa.text" = "E";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "r71-CB-IDd"; */
+"r71-CB-IDd.text" = "Н";
+
+/* Class = "IBUILabel"; text = "20/200"; ObjectID = "rWk-9D-RfA"; */
+"rWk-9D-RfA.text" = "20/200";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "ruL-O2-APq"; */
+"ruL-O2-APq.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "sC4-dV-d70"; */
+"sC4-dV-d70.text" = "М";
+
+/* Class = "IBUILabel"; text = "F"; ObjectID = "sGL-mk-eUU"; */
+"sGL-mk-eUU.text" = "F";
+
+/* Class = "IBUILabel"; text = "D"; ObjectID = "sN3-93-vac"; */
+"sN3-93-vac.text" = "D";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "shQ-zw-16C"; */
+"shQ-zw-16C.text" = "Н";
+
+/* Class = "IBUILabel"; text = "D = 12,5"; ObjectID = "tMi-U8-NpI"; */
+"tMi-U8-NpI.text" = "D = 12,5";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "taE-aa-Cue"; */
+"taE-aa-Cue.text" = "P";
+
+/* Class = "IBUILabel"; text = "М"; ObjectID = "th0-NJ-gfT"; */
+"th0-NJ-gfT.text" = "М";
+
+/* Class = "IBUILabel"; text = "L"; ObjectID = "tjR-rb-LM0"; */
+"tjR-rb-LM0.text" = "L";
+
+/* Class = "IBUILabel"; text = "O"; ObjectID = "uIZ-PS-CrE"; */
+"uIZ-PS-CrE.text" = "O";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "uPM-E3-Uj0"; */
+"uPM-E3-Uj0.text" = "К";
+
+/* Class = "IBUILabel"; text = "Your score is:"; ObjectID = "vGl-jr-KhK"; */
+"vGl-jr-KhK.text" = "Your score is:";
+
+/* Class = "IBUILabel"; text = "D = 2,5"; ObjectID = "vpL-TW-1Oi"; */
+"vpL-TW-1Oi.text" = "D = 2,5";
+
+/* Class = "IBUIButton"; normalTitle = "E chart"; ObjectID = "w6s-0a-m3f"; */
+"w6s-0a-m3f.normalTitle" = "E chart";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "wFU-Fg-nla"; */
+"wFU-Fg-nla.text" = "К";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "wVG-23-AVG"; */
+"wVG-23-AVG.text" = "К";
+
+/* Class = "IBUILabel"; text = "V = 1,5"; ObjectID = "wg5-2k-wzT"; */
+"wg5-2k-wzT.text" = "V = 1,5";
+
+/* Class = "IBUILabel"; text = "Ш"; ObjectID = "whz-uG-GMe"; */
+"whz-uG-GMe.text" = "Ш";
+
+/* Class = "IBUILabel"; text = "D = 6,25"; ObjectID = "xJ7-hW-bTF"; */
+"xJ7-hW-bTF.text" = "D = 6,25";
+
+/* Class = "IBUILabel"; text = "D = 25,0"; ObjectID = "xVW-C9-9Gb"; */
+"xVW-C9-9Gb.text" = "D = 25,0";
+
+/* Class = "IBUILabel"; text = "Н"; ObjectID = "xjT-s0-vhp"; */
+"xjT-s0-vhp.text" = "Н";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "yEs-g4-HUG"; */
+"yEs-g4-HUG.text" = "P";
+
+/* Class = "IBUILabel"; text = "20/100"; ObjectID = "yF9-AI-CfD"; */
+"yF9-AI-CfD.text" = "20/100";
+
+/* Class = "IBUILabel"; text = "P"; ObjectID = "yIB-pS-VgF"; */
+"yIB-pS-VgF.text" = "P";
+
+/* Class = "IBUILabel"; text = "К"; ObjectID = "yPa-i6-tiZ"; */
+"yPa-i6-tiZ.text" = "К";
+
+/* Class = "IBUILabel"; text = "Б"; ObjectID = "zFi-BM-isS"; */
+"zFi-BM-isS.text" = "Б";
+
+/* Class = "IBUILabel"; text = "D = 8,33"; ObjectID = "zcP-31-Esf"; */
+"zcP-31-Esf.text" = "D = 8,33";
+
+/* Class = "IBUILabel"; text = "D = 2,5"; ObjectID = "zux-1M-vme"; */
+"zux-1M-vme.text" = "D = 2,5";
