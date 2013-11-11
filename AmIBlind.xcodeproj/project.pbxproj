@@ -126,6 +126,14 @@
 		B3341BD418315F9300ADC90E /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				B3341BE31831617D00ADC90E /* Google Analytics */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		B3341BE31831617D00ADC90E /* Google Analytics */ = {
+			isa = PBXGroup;
+			children = (
 				B3341BD718315FC000ADC90E /* GAI.h */,
 				B3341BD818315FC000ADC90E /* GAIDictionaryBuilder.h */,
 				B3341BD918315FC000ADC90E /* GAIFields.h */,
@@ -134,7 +142,7 @@
 				B3341BDC18315FC000ADC90E /* GAITracker.h */,
 				B3341BD518315FB200ADC90E /* libGoogleAnalyticsServices.a */,
 			);
-			name = Dependencies;
+			name = "Google Analytics";
 			sourceTree = "<group>";
 		};
 		B3E9070A18304F8800E4C2CF = {

@@ -345,6 +345,8 @@
 }
 
 - (void)finishTest {
+    testingInProgress = NO;
+    
     // Set right score label
     self.yourScoreLabel.text = [NSString stringWithFormat:@"Your score is: %@ (left), %@ (right)",left,right];
     
