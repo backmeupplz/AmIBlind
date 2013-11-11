@@ -36,4 +36,10 @@
     [self.snellenTable randomize];
 }
 
+#pragma mark - Status bar -
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
+
 @end
