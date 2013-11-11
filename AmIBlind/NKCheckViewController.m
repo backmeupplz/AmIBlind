@@ -9,6 +9,8 @@
 #import "NKCheckViewController.h"
 #import "NKSnellenLetterLabel.h"
 #import <Social/Social.h>
+#import "GAI.h"
+#import "GAIDictionaryBuilder.h"
 
 #define animationDuration 0.5
 
@@ -31,6 +33,14 @@
     
     // Hide testing view initially
     [self hideTestingView:YES animated:NO];
+}
+
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    // GA property
+    self.screenName = @"Main Screen";
 }
 
 #pragma mark - Buttons methods -
@@ -216,6 +226,14 @@
     testingInProgress = YES;
     left = nil;
     right = nil;
+    
+    // GA
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"
+                                                          action:@"button_press"
+                                                           label:@"take_test"
+                                                           value:nil] build]];
 }
 
 - (IBAction)cancel:(id)sender {
@@ -232,6 +250,14 @@
     [twi setInitialText:[NSString stringWithFormat:@"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)",left,right]];
     
     [self presentViewController:twi animated:YES completion:nil];
+    
+    // GA
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"
+                                                          action:@"button_press"
+                                                           label:@"twitter"
+                                                           value:nil] build]];
 }
 
 - (IBAction)facebookButtonTouched:(UIButton *)sender {
@@ -243,6 +269,14 @@
     };
     
     [self presentViewController:fb animated:YES completion:nil];
+    
+    // GA
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    [tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"ui_action"
+                                                          action:@"button_press"
+                                                           label:@"facebook"
+                                                           value:nil] build]];
 }
 
 - (IBAction)allrightyThenButtonTouched:(UIButton *)sender {

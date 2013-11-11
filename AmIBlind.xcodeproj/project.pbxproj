@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B3341BD31831504600ADC90E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3341BD21831504600ADC90E /* Social.framework */; };
+		B3341BD618315FB200ADC90E /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3341BD518315FB200ADC90E /* libGoogleAnalyticsServices.a */; };
+		B3341BDE18315FDC00ADC90E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3341BDD18315FDC00ADC90E /* CoreData.framework */; };
+		B3341BE018315FE500ADC90E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3341BDF18315FE500ADC90E /* SystemConfiguration.framework */; };
+		B3341BE218315FEE00ADC90E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B3341BE118315FEE00ADC90E /* libz.dylib */; };
 		B33632C51830987A00F6815C /* Snellen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B33632C41830987A00F6815C /* Snellen.ttf */; };
 		B33632C71830C0DB00F6815C /* e.gif in Resources */ = {isa = PBXBuildFile; fileRef = B33632C61830C0DB00F6815C /* e.gif */; };
 		B33632CA1830C48900F6815C /* NKChartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B33632C91830C48900F6815C /* NKChartImageView.m */; };
@@ -45,6 +49,16 @@
 
 /* Begin PBXFileReference section */
 		B3341BD21831504600ADC90E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B3341BD518315FB200ADC90E /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		B3341BD718315FC000ADC90E /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		B3341BD818315FC000ADC90E /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		B3341BD918315FC000ADC90E /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		B3341BDA18315FC000ADC90E /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		B3341BDB18315FC000ADC90E /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		B3341BDC18315FC000ADC90E /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		B3341BDD18315FDC00ADC90E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B3341BDF18315FE500ADC90E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3341BE118315FEE00ADC90E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B33632C41830987A00F6815C /* Snellen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snellen.ttf; sourceTree = "<group>"; };
 		B33632C61830C0DB00F6815C /* e.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = e.gif; sourceTree = "<group>"; };
 		B33632C81830C48900F6815C /* NKChartImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKChartImageView.h; sourceTree = "<group>"; };
@@ -85,9 +99,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3341BE218315FEE00ADC90E /* libz.dylib in Frameworks */,
+				B3341BE018315FE500ADC90E /* SystemConfiguration.framework in Frameworks */,
+				B3341BDE18315FDC00ADC90E /* CoreData.framework in Frameworks */,
 				B3341BD31831504600ADC90E /* Social.framework in Frameworks */,
 				B3E9071918304F8800E4C2CF /* CoreGraphics.framework in Frameworks */,
 				B3E9071B18304F8800E4C2CF /* UIKit.framework in Frameworks */,
+				B3341BD618315FB200ADC90E /* libGoogleAnalyticsServices.a in Frameworks */,
 				B3E9071718304F8800E4C2CF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -105,6 +123,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3341BD418315F9300ADC90E /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B3341BD718315FC000ADC90E /* GAI.h */,
+				B3341BD818315FC000ADC90E /* GAIDictionaryBuilder.h */,
+				B3341BD918315FC000ADC90E /* GAIFields.h */,
+				B3341BDA18315FC000ADC90E /* GAILogger.h */,
+				B3341BDB18315FC000ADC90E /* GAITrackedViewController.h */,
+				B3341BDC18315FC000ADC90E /* GAITracker.h */,
+				B3341BD518315FB200ADC90E /* libGoogleAnalyticsServices.a */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
 		B3E9070A18304F8800E4C2CF = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +145,7 @@
 				B3E9071C18304F8800E4C2CF /* AmIBlind */,
 				B3E9071D18304F8800E4C2CF /* Supporting Files */,
 				B3E9073E18304F8800E4C2CF /* AmIBlindTests */,
+				B3341BD418315F9300ADC90E /* Dependencies */,
 				B3E9071518304F8800E4C2CF /* Frameworks */,
 				B3E9071418304F8800E4C2CF /* Products */,
 			);
@@ -130,6 +163,9 @@
 		B3E9071518304F8800E4C2CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3341BE118315FEE00ADC90E /* libz.dylib */,
+				B3341BDF18315FE500ADC90E /* SystemConfiguration.framework */,
+				B3341BDD18315FDC00ADC90E /* CoreData.framework */,
 				B3341BD21831504600ADC90E /* Social.framework */,
 				B3E9071618304F8800E4C2CF /* Foundation.framework */,
 				B3E9071818304F8800E4C2CF /* CoreGraphics.framework */,
@@ -477,6 +513,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -491,6 +531,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;

@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "NKTestTable.h"
+#import "GAI.h"
 
-@interface NKCheckViewController : UIViewController <UIGestureRecognizerDelegate>
+@interface NKCheckViewController : GAITrackedViewController <UIGestureRecognizerDelegate>
 
 // UI Properties
 @property (weak, nonatomic) IBOutlet NKTestTable *snellenTable;
