@@ -7,25 +7,17 @@
 //
 
 #import "NKLetterTable.h"
+#import "NKLetterLabel.h"
 
 @implementation NKLetterTable
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
+/**
+ *  Method to randomize all subview letters
+ */
+- (void)randomize {
+    for (NKLetterLabel *letter in self.subviews) {
+        [letter randomize];
     }
-    return self;
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
 
 @end

@@ -8,22 +8,32 @@
 
 #import "NKCheckViewController.h"
 
-@implementation NKCheckViewController
+@implementation NKCheckViewController {
+    float originalHeight;
+}
 
 #pragma mark - View Controller life cycle -
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    originalHeight = self.sivcevTable.frame.size.height;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Buttons methods -
+
+- (IBAction)sizeSliderChanged:(UISlider *)sender {
+    float value = sender.value;
+    
+    CGPoint center = self.sivcevTable.center;
+    CGRect frame = self.sivcevTable.frame;
+    frame.size.height = originalHeight * value;
+    self.sivcevTable.frame = frame;
+    self.sivcevTable.center = center;
 }
 
 - (IBAction)randomizeTouched:(UIButton *)sender {
-    [self.letters[0] randomize];
+    [self.sivcevTable randomize];
 }
 
 @end

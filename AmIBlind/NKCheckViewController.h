@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NKLetterLabel.h"
+#import "NKLetterTable.h"
 
 @interface NKCheckViewController : UIViewController
 
+// UI Properties
+@property (weak, nonatomic) IBOutlet NKLetterTable *sivcevTable;
+
+- (IBAction)sizeSliderChanged:(UISlider *)sender;
 - (IBAction)randomizeTouched:(UIButton *)sender;
 
 @end

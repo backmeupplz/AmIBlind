@@ -10,4 +10,6 @@
 
 @interface NKLetterTable : UIView
 
+- (void)randomize;
+
 @end
