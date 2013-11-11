@@ -7,6 +7,7 @@
 //
 
 #import "NKCheckViewController.h"
+#import "NKSnellenLetterLabel.h"
 
 #define animationDuration 0.5
 
@@ -62,6 +63,28 @@
     
     // Show testing view
     [self hideTestingView:NO animated:YES];
+    
+    // We want to start from clean scene
+    // Show all necessary views
+    self.closeEyeLabel.hidden = NO;
+    self.choseLetterLabel.hidden = NO;
+    self.buttonOne.hidden = NO;
+    self.buttonTwo.hidden = NO;
+    self.buttonThree.hidden = NO;
+    self.cancellButton.hidden = NO;
+    
+    // Hide everything else
+    self.yourScoreLabel.hidden = YES;
+    self.twitterButton.hidden = YES;
+    self.facebookButton.hidden = YES;
+    self.alrightyThenButton.hidden = YES;
+    
+    // Fill the right text
+    self.closeEyeLabel.text = @"Close your right eye";
+    if ([visibleTable.subviews[3] isKindOfClass:[NKSnellenLetterLabel class]])
+        self.choseLetterLabel.text = @"Choose the letter marked below:";
+    else
+        self.choseLetterLabel.text = @"Choose the symbol marked below:";
 }
 
 - (IBAction)cancel:(id)sender {
@@ -70,15 +93,22 @@
 }
 
 - (IBAction)answerTouched:(UIButton *)sender {
+    [self finishTestWithLeftEye:@"1.0" andRightEye:@"1.0"];
 }
 
 - (IBAction)twitterButtonTouched:(UIButton *)sender {
+    [self hideTestingView:YES animated:YES];
+    [self hideBottomAndUpperViews:NO];
 }
 
 - (IBAction)facebookButtonTouched:(UIButton *)sender {
+    [self hideTestingView:YES animated:YES];
+    [self hideBottomAndUpperViews:NO];
 }
 
 - (IBAction)allrightyThenButtonTouched:(UIButton *)sender {
+    [self hideTestingView:YES animated:YES];
+    [self hideBottomAndUpperViews:NO];
 }
 
 #pragma mark - General methods -
@@ -135,6 +165,25 @@
         float offset = (hide) ? -self.testingView.frame.size.height : self.testingView.frame.size.height;
         self.testingView.frame = CGRectOffset(self.testingView.frame, 0, offset);
     }
+}
+
+- (void)finishTestWithLeftEye:(NSString *)leftResult andRightEye:(NSString *)rightResult {
+    // Set right score label
+    self.yourScoreLabel.text = [NSString stringWithFormat:@"Your score is: %@ (left), %@ (right)",leftResult,rightResult];
+    
+    // Show necessary views
+    self.yourScoreLabel.hidden = NO;
+    self.twitterButton.hidden = NO;
+    self.facebookButton.hidden = NO;
+    self.alrightyThenButton.hidden = NO;
+    
+    // Hide cancel button
+    self.cancellButton.hidden = YES;
+    self.closeEyeLabel.hidden = YES;
+    self.choseLetterLabel.hidden = YES;
+    self.buttonOne.hidden = YES;
+    self.buttonTwo.hidden = YES;
+    self.buttonThree.hidden = YES;
 }
 
 #pragma mark - Status bar -
