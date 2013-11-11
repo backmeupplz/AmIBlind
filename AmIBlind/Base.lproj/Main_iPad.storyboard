@@ -40,6 +40,13 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introduced by Nikita Kolmogorov" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="A2N-dH-6iU">
+                                        <rect key="frame" x="145" y="388" width="479" height="33"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="logo.png" id="whF-dB-4bn">
                                         <rect key="frame" x="112" y="967" width="545" height="453"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -87,17 +94,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qm8-yD-oc6">
-                                <rect key="frame" x="291" y="964" width="187" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
-                                <state key="normal" title="Randomize">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="randomizeTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="xkW-Bk-xJ3"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" id="x6g-f9-ZrT" userLabel="Snellen" customClass="NKTestTable">
                                 <rect key="frame" x="0.0" y="35" width="768" height="914"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1514,7 +1510,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="zZU-KW-t5s" userLabel="C chart" customClass="NKTestTable">
-                                <rect key="frame" x="0.0" y="55" width="768" height="914"/>
+                                <rect key="frame" x="0.0" y="35" width="768" height="914"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c.png" id="khP-iu-afA" customClass="NKChartImageView">
@@ -1940,13 +1936,6 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="1" id="0yb-Bg-Myc">
-                                <rect key="frame" x="18" y="971" width="236" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="sizeSliderChanged:" destination="AZc-fu-Mlp" eventType="valueChanged" id="WRl-Jy-Gmd"/>
-                                </connections>
-                            </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Nl-hw-XN1">
                                 <rect key="frame" x="0.0" y="0.0" width="187" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1991,12 +1980,51 @@
                                     <action selector="sivtsevTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="SRs-At-r8v"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" id="BGV-Df-XQD" userLabel="Bottom View">
+                                <rect key="frame" x="0.0" y="957" width="768" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qm8-yD-oc6">
+                                        <rect key="frame" x="20" y="-1" width="187" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <state key="normal" title="Randomize">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="randomizeTouched:" destination="AZc-fu-Mlp" eventType="touchUpInside" id="xkW-Bk-xJ3"/>
+                                        </connections>
+                                    </button>
+                                    <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.5" maxValue="1" id="0yb-Bg-Myc">
+                                        <rect key="frame" x="266" y="14" width="236" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="sizeSliderChanged:" destination="AZc-fu-Mlp" eventType="valueChanged" id="WRl-Jy-Gmd"/>
+                                        </connections>
+                                    </slider>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="neL-YC-F99">
+                                        <rect key="frame" x="561" y="-1" width="187" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="29"/>
+                                        <state key="normal" title="Take test">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="bfV-j9-mch">
+                                <rect key="frame" x="0.0" y="0.0" width="384" height="512"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Srj-6e-iGS"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
+                        <outlet property="bottomView" destination="BGV-Df-XQD" id="1Qm-rM-9hP"/>
                         <outlet property="cChartTable" destination="zZU-KW-t5s" id="yxc-Mt-ezX"/>
                         <outlet property="eChartTable" destination="jCf-lJ-IhM" id="4yd-Xx-fZM"/>
                         <outlet property="sivtsevTable" destination="rG9-F9-38k" id="bCv-hJ-SYf"/>

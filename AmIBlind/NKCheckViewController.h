@@ -17,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet NKTestTable *cChartTable;
 @property (weak, nonatomic) IBOutlet NKTestTable *sivtsevTable;
 
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
+
 - (IBAction)snellenTouched:(UIButton *)sender;
 - (IBAction)eChartTouched:(UIButton *)sender;
 - (IBAction)cChartTouched:(UIButton *)sender;
