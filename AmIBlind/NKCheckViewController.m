@@ -85,7 +85,7 @@
         
         if (left == nil) {
             left = result;
-            self.closeEyeLabel.text =  @"Close your left eye";
+            self.closeEyeLabel.text = NSLocalizedString(@"Close your left eye", nil);
         } else {
             right = result;
             [self finishTest];
@@ -121,7 +121,7 @@
         
         if (left == nil) {
             left = result;
-            self.closeEyeLabel.text =  @"Close your left eye";
+            self.closeEyeLabel.text =  NSLocalizedString(@"Close your left eye",nil);
         } else {
             right = result;
             [self finishTest];
@@ -157,7 +157,7 @@
         
         if (left == nil) {
             left = result;
-            self.closeEyeLabel.text =  @"Close your left eye";
+            self.closeEyeLabel.text =  NSLocalizedString(@"Close your left eye",nil);
         } else {
             right = result;
             [self finishTest];
@@ -189,7 +189,7 @@
         
         if (left == nil) {
             left = result;
-            self.closeEyeLabel.text =  @"Close your left eye";
+            self.closeEyeLabel.text =  NSLocalizedString(@"Close your left eye",nil);
         } else {
             right = result;
             [self finishTest];
@@ -221,7 +221,7 @@
     self.alrightyThenButton.hidden = YES;
     
     // Fill the right text
-    self.closeEyeLabel.text = @"Close your right eye";
+    self.closeEyeLabel.text = NSLocalizedString(@"Close your right eye",nil);
     
     testingInProgress = YES;
     left = nil;
@@ -247,7 +247,8 @@
 - (IBAction)twitterButtonTouched:(UIButton *)sender {
     SLComposeViewController *twi = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
     
-    [twi setInitialText:[NSString stringWithFormat:@"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)",left,right]];
+    [twi setInitialText:[NSString stringWithFormat:NSLocalizedString(@"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)",nil),left,right]];
+    [twi addURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/id742545967"]];
     
     [self presentViewController:twi animated:YES completion:nil];
     
@@ -263,7 +264,8 @@
 - (IBAction)facebookButtonTouched:(UIButton *)sender {
     SLComposeViewController *fb = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
     
-    [fb setInitialText:[NSString stringWithFormat:@"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)",left,right]];
+    [fb setInitialText:[NSString stringWithFormat:NSLocalizedString(@"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)",nil),left,right]];
+    [fb addURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/id742545967"]];
     fb.completionHandler = ^(SLComposeViewControllerResult result) {
         [self dismissViewControllerAnimated:YES completion:nil];
     };
@@ -348,7 +350,7 @@
     testingInProgress = NO;
     
     // Set right score label
-    self.yourScoreLabel.text = [NSString stringWithFormat:@"Your score is: %@ (left), %@ (right)",left,right];
+    self.yourScoreLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Your score is: %@ (left), %@ (right)",nil),left,right];
     
     // Show necessary views
     self.yourScoreLabel.hidden = NO;

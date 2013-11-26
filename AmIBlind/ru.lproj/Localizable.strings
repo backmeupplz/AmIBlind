@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  AmIBlind
+
+  Created by Nikita Kolmogorov on 25.11.13.
+  Copyright (c) 2013 Nikita Kolmogorov. All rights reserved.
+*/
+
+/* No comment provided by engineer. */
+"Close your left eye" = "Закройте левый глаз";
+
+/* No comment provided by engineer. */
+"Close your right eye" = "Закройте правый глаз";
+
+/* No comment provided by engineer. */
+"My eye test result is: %@ (left), %@ (right)! Check your eyes with awesome app AmIBlind! (It's free)" = "Мое зрение сегодня: %1$@ (левый), %2$@ (правый)! Проверь зрение с бесплатным приложением AmIBlind!";
+
+/* No comment provided by engineer. */
+"Your score is: %@ (left), %@ (right)" = "Ваш результат: %1$@ (левый), %2$@ (правый)";
+
