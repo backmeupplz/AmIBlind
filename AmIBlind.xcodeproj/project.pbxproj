@@ -72,8 +72,8 @@
 		B37B6FC81844589600372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B37B6FC91844589600372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B37B6FCA1844590700372835 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		B37B6FD318445AEE00372835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B37B6FD518445AF000372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B37B6FD318445AEE00372835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B37B6FD518445AF000372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B3E9071318304F8800E4C2CF /* AmIBlind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmIBlind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E9071618304F8800E4C2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3E9071818304F8800E4C2CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -548,6 +548,7 @@
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -571,6 +572,7 @@
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
