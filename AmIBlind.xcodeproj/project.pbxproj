@@ -24,7 +24,6 @@
 		B3E9072118304F8800E4C2CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3E9071F18304F8800E4C2CF /* InfoPlist.strings */; };
 		B3E9072318304F8800E4C2CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9072218304F8800E4C2CF /* main.m */; };
 		B3E9072718304F8800E4C2CF /* NKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E9072618304F8800E4C2CF /* NKAppDelegate.m */; };
-		B3E9072A18304F8800E4C2CF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E9072818304F8800E4C2CF /* Main_iPhone.storyboard */; };
 		B3E9072D18304F8800E4C2CF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E9072B18304F8800E4C2CF /* Main_iPad.storyboard */; };
 		B3E9073218304F8800E4C2CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E9073118304F8800E4C2CF /* Images.xcassets */; };
 		B3E9073918304F8800E4C2CF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9073818304F8800E4C2CF /* XCTest.framework */; };
@@ -67,7 +66,6 @@
 		B33632CE1830E79500F6815C /* NKSivtsevLetterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKSivtsevLetterLabel.h; sourceTree = "<group>"; };
 		B33632CF1830E79500F6815C /* NKSivtsevLetterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKSivtsevLetterLabel.m; sourceTree = "<group>"; };
 		B33632D31831192A00F6815C /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
-		B37B6FC61844589500372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
 		B37B6FC71844589600372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main_iPad.strings; sourceTree = "<group>"; };
 		B37B6FC81844589600372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B37B6FC91844589600372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 		B3E9072418304F8800E4C2CF /* AmIBlind-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AmIBlind-Prefix.pch"; sourceTree = "<group>"; };
 		B3E9072518304F8800E4C2CF /* NKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKAppDelegate.h; sourceTree = "<group>"; };
 		B3E9072618304F8800E4C2CF /* NKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKAppDelegate.m; sourceTree = "<group>"; };
-		B3E9072918304F8800E4C2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B3E9072C18304F8800E4C2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		B3E9073118304F8800E4C2CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B3E9073718304F8800E4C2CF /* AmIBlindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmIBlindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +144,6 @@
 		B3E9070A18304F8800E4C2CF = {
 			isa = PBXGroup;
 			children = (
-				B3E9072818304F8800E4C2CF /* Main_iPhone.storyboard */,
 				B3E9072B18304F8800E4C2CF /* Main_iPad.storyboard */,
 				B3E9071C18304F8800E4C2CF /* AmIBlind */,
 				B3E9071D18304F8800E4C2CF /* Supporting Files */,
@@ -358,7 +354,6 @@
 				B37B6FD218445AEE00372835 /* Localizable.strings in Resources */,
 				B3E9073218304F8800E4C2CF /* Images.xcassets in Resources */,
 				B33632C71830C0DB00F6815C /* e.gif in Resources */,
-				B3E9072A18304F8800E4C2CF /* Main_iPhone.storyboard in Resources */,
 				B3E9072118304F8800E4C2CF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,16 +418,6 @@
 				B37B6FC81844589600372835 /* ru */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B3E9072818304F8800E4C2CF /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3E9072918304F8800E4C2CF /* Base */,
-				B37B6FC61844589500372835 /* ru */,
-			);
-			name = Main_iPhone.storyboard;
-			path = AmIBlind;
 			sourceTree = "<group>";
 		};
 		B3E9072B18304F8800E4C2CF /* Main_iPad.storyboard */ = {
@@ -543,6 +528,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
@@ -567,6 +553,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
