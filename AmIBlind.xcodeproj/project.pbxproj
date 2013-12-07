@@ -18,6 +18,7 @@
 		B33632D41831192A00F6815C /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = B33632D31831192A00F6815C /* c.png */; };
 		B37B6FCB1844590700372835 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B37B6FCA1844590700372835 /* libGoogleAnalyticsServices.a */; };
 		B37B6FD218445AEE00372835 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B37B6FD418445AEE00372835 /* Localizable.strings */; };
+		B3971B521852AF5B006A4BB3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3971B511852AF5B006A4BB3 /* Main_iPhone.storyboard */; };
 		B3E9071718304F8800E4C2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071618304F8800E4C2CF /* Foundation.framework */; };
 		B3E9071918304F8800E4C2CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071818304F8800E4C2CF /* CoreGraphics.framework */; };
 		B3E9071B18304F8800E4C2CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E9071A18304F8800E4C2CF /* UIKit.framework */; };
@@ -72,6 +73,7 @@
 		B37B6FCA1844590700372835 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		B37B6FD318445AEE00372835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B37B6FD518445AF000372835 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B3971B511852AF5B006A4BB3 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		B3E9071318304F8800E4C2CF /* AmIBlind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmIBlind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E9071618304F8800E4C2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3E9071818304F8800E4C2CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,7 @@
 		B3E9070A18304F8800E4C2CF = {
 			isa = PBXGroup;
 			children = (
+				B3971B511852AF5B006A4BB3 /* Main_iPhone.storyboard */,
 				B3E9072B18304F8800E4C2CF /* Main_iPad.storyboard */,
 				B3E9071C18304F8800E4C2CF /* AmIBlind */,
 				B3E9071D18304F8800E4C2CF /* Supporting Files */,
@@ -352,6 +355,7 @@
 				B3E90753183055E300E4C2CF /* logo.png in Resources */,
 				B33632D41831192A00F6815C /* c.png in Resources */,
 				B37B6FD218445AEE00372835 /* Localizable.strings in Resources */,
+				B3971B521852AF5B006A4BB3 /* Main_iPhone.storyboard in Resources */,
 				B3E9073218304F8800E4C2CF /* Images.xcassets in Resources */,
 				B33632C71830C0DB00F6815C /* e.gif in Resources */,
 				B3E9072118304F8800E4C2CF /* InfoPlist.strings in Resources */,
@@ -528,7 +532,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
@@ -553,7 +557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
