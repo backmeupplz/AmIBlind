@@ -532,7 +532,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
@@ -557,7 +557,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AmIBlind/AmIBlind-Prefix.pch";
 				INFOPLIST_FILE = "AmIBlind/AmIBlind-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LOCAL_DEVELOPER_DIR)/AmIBlind/AmIBlind",
